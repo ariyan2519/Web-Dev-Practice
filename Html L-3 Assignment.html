@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | L--03 | Assignment</title>
+ </head>
+ <body>
+    <!-- Ans no : 01 -->
+    <table border="black">
+<caption>Student Information</caption>
+
+<tr>
+    <th rowspan="6">Info</th>
+    <th rowspan="2">Name</th>
+    <th colspan="2">Address</th>
+</tr>
+<tr>
+    <th>City</th>
+    <th>House</th>
+</tr>
+<tr>
+    <td>A</td>
+    <td>Delhi</td>
+    <td>1</td>
+</tr>
+<tr>
+    <td>B</td>
+    <td>Mumbai</td>
+    <td>2</td>
+</tr>
+<tr>
+    <td>C</td>
+    <td>Kolkata</td>
+    <td>3</td>
+</tr>
+<tr>
+    <td>D</td>
+    <td>Pune</td>
+    <td>4</td>
+</tr>
+    </table>
+    <hr>
+    <!-- Ans no : 02 -->
+    <form action="/server">
+ <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+ </div>
+ <div>
+    <lebel for = "sex">Sex: </lebel>
+  <input type="radio" id="male" name="sex" value="Male">
+    <label for="male">male</label>
+    <input type="radio" id="female" name="sex" value="Female"> 
+    <label for="female">female</label> 
+    </div>
+    <div>
+        Country: 
+        <select name="country name" id="country">
+            <option value="Usa">USA</option>
+            <option value="Ban">Ban</option>
+            <option value="Aus">Aus</option>
+        </select>
+</div>
+<div>
+Message: <br>
+<textarea></textarea>
+<br>
+<input type="checkbox" id="subs" name="subs">
+<label for="subs">Subscribe?</label>
+</div>
+<button id="submit" name="submit">Submit</button>
+<label for="submit"></label>
+
+<hr>
+<div>
+    <h1>Feedback Form</h1>
+    <label for="Name_1">Name: </label>
+    <input type="text" placeholder="Write your name" id="Name_1" name="Name_1">
+<br>
+<label for="Email_2"> Email: </label>
+<input type="email" placeholder="Write your email" id="Email">
+<br>
+<label for="Feedback_1">Message: </label>
+<br>
+<textarea id="Feedback_1"></textarea>
+</div>
+<div>
+    Rate us : 
+    <ol>
+        <li><input type="radio" id="superb" name="rating_1">Superb</li>
+        <li><input type="radio" id="good" name="rating_1">Good</li>
+        <li><input type="radio" id="bad" name="rating_1">Bad</li>
+        <label for="button_1"></label>
+        <button id="button_1">Send your message!</button>
+    </ol>
+</div>
+</form>
+ </body>
+ </html>
+ 
+

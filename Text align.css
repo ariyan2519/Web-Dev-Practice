@@ -1,0 +1,10 @@
+h1{
+    text-align: right;
+    width: 40%;
+}
+p{
+    text-align: justify;
+    font-style: italic;
+    color:aqua;
+    background-color: bisque;
+}

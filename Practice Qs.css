@@ -1,0 +1,18 @@
+/* it is a language that is used to describe the style of a document */
+/* Basic format of css
+This is an example::
+SELECTOR ~ h1 {
+       PROPERTY ~color: red;` VALUE 
+}
+       */
+h2{
+       color: orange;
+}
+button{
+       color: white;
+       background-color: blue;
+}
+p{
+       background-color: black;
+       color: white;
+}

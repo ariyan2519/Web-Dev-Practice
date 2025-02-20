@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text align properties</title>
+    <link rel="stylesheet" href="Text align.css">
+</head>
+<body>
+    <h1>Iron Man</h1>
+    <p>Stane's scientists are unable to duplicate Stark's miniaturized arc reactor, so Stane enters Stark/'s home and steals the one from his chest. Stark manages to replace it with his original reactor. Potts and several S.H.I.E.L.D. 
+        agents attempt to arrest Stane, but he dons his suit and overpowers them. Stark fights Stane but is outmatched without his new reactor to run his suit at full capacity. 
+        The fight carries Stark and Stane to the top of the Stark Industries building, where Stark instructs Potts to overload the large arc reactor powering the building. 
+        This unleashes a massive electrical surge that causes Stane to fall into the reactor and he is killed in the explosion. 
+        The next day, at a press conference, Stark publicly admits to being the superhero the press has dubbed "Iron Man". </p>
+        <hr>
+        <code># Program to check if a number is prime or not
+
+            num = 29
+            
+            # To take input from the user
+            #num = int(input("Enter a number: "))
+            
+            # define a flag variable
+            flag = False
+            
+            if num == 0 or num == 1:
+                print(num, "is not a prime number")
+            elif num > 1:
+                # check for factors
+                for i in range(2, num):
+                    if (num % i) == 0:
+                        # if factor is found, set flag to True
+                        flag = True
+                        # break out of loop
+                        break
+            
+                # check if flag is True
+                if flag:
+                    print(num, "is not a prime number")
+                else:
+                    print(num, "is a prime number")</code>
+</body>
+</html>

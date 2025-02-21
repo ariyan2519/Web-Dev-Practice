@@ -1,2 +1,2 @@
-# Web-Dev-Practice
-A collection of my daily HTML practice. Gradually adding CSS, JavaScript, and more as I learn.
+# Web-Dev-HTML
+A collection of my HTML practice. 
